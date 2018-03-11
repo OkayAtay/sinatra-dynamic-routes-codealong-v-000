@@ -23,6 +23,7 @@ class App < Sinatra::Base
     @user_num1 = params[:num1]
     @user_num2 = params[:num2]
     @product = @user_num1*@user_num2
+    "#{@product}"
   end
 
 end
