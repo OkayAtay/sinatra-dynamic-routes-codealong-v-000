@@ -24,5 +24,5 @@ class App < Sinatra::Base
     @user_num1 = params[:num2]
     "#{num1}*#{num2}"
   end
-  end
+  
 end
